@@ -1,0 +1,14 @@
+.submit-row input[type="button"] {
+  font-size: 12px;
+  font-weight: lighter;
+  background-color: #5EADDE;
+  color: #fff;
+  text-transform: uppercase; }
+  .submit-row input[type="button"]:hover, .submit-row input[type="button"]:focus {
+    background-color: #639af5;
+    color: #fff; }
+  .submit-row input[type="button"]:active {
+    background-color: #6f7e95;
+    color: #fff; }
+
+/*# sourceMappingURL=custom.css.map */
