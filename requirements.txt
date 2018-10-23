@@ -1,0 +1,10 @@
+Babel==2.6.0
+Django==2.1.2
+django-admin-rangefilter==0.3.8
+django-jet==1.0.8
+django-localflavor==2.1
+django-phonenumber-field==2.0.1
+phonenumbers==8.9.16
+python-stdnum==1.10
+pytz==2018.5
+six==1.11.0

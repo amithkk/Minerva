@@ -47,6 +47,7 @@ class Publication(models.Model):
 
 class Person(models.Model):
     name = models.CharField(max_length=60)
+    
     email = models.EmailField()
     phno = PhoneNumberField(blank=True)
 
