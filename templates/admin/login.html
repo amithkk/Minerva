@@ -60,6 +60,9 @@
     <label>&nbsp;</label><input type="submit" value="{% trans 'Log in' %}" />
 
       <label>&nbsp;</label><input type="button" onclick='location.href = "{% url 'student_login' %}";' value="{% trans 'Im a student' %}" />
+
+      <br><br>
+      <a href="{% url 'password_reset' %}">Forgot Your Password? </a>
   </div>
 
 </form>

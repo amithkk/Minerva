@@ -1,0 +1,15 @@
+{% autoescape off %}
+Welcome to the Minerva Publication Management System!
+
+As a new user, you're receiving this e-mail regarding your new user account at Minerva
+
+Please go to the following page and choose a new password:
+
+{% block reset_link %}
+{{ protocol }}://{{ domain }}{% url 'password_reset_confirm' uidb64=uid token=token %}
+{% endblock %}
+
+Your username is this email address.
+
+Thank you!
+{% endautoescape %}

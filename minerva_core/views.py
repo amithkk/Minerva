@@ -8,3 +8,7 @@ def student_login(request):
     auth.login(request,student)
     return redirect('/minerva_core/publication/')
 
+# def redirect_to_profile(request):
+#     if not request.user.is_superuser:
+#         return redirec
+

@@ -13,7 +13,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+import authtools
 import jet
+from authtools.views import PasswordResetView
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
@@ -32,10 +34,12 @@ if hasattr(settings, 'ADMIN_SITE_HEADER'):
 
 favicon_view = RedirectView.as_view(url='/static/favicon.ico', permanent=True)
 logout_redir = RedirectView.as_view(url='/login', permanent=True)
-
 urlpatterns = [
-    path(r'^logout/', logout_redir),
+    path(r'logout/', logout_redir),
+    path(r'accounts/login/', logout_redir),
+    path('accounts/resetpwd', PasswordResetView.as_view(), name="reset_password"),
     path('', admin.site.urls),
+    path('accounts/', include('authtools.urls')),
     path('jet/', include('jet.urls', 'jet')),
     path('favicon\.ico', favicon_view),
     path('auth_as_student', views.student_login, name= "student_login")]

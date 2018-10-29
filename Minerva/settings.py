@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from env import GMAIL_PWD
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
@@ -30,7 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'jet',
-    'admin_view_permission',
+    'authtools',
+    #'admin_view_permission',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -74,6 +77,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Minerva.wsgi.application'
 
+AUTH_USER_MODEL = 'authtools.User'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'projectminerva.info@gmail.com'
+EMAIL_HOST_PASSWORD = GMAIL_PWD
+EMAIL_PORT = 587
+
+
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
@@ -106,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
-
+SITE_NAME = 'Minerva'
 TIME_ZONE = 'UTC'
 
 USE_I18N = True

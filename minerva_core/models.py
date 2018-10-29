@@ -23,9 +23,9 @@ class Publication(models.Model):
         ('JO', 'Journal'),
     )
     title = models.CharField(max_length=200, verbose_name="Publication Title")
-    isbn = isbn_field.ISBNField(null=True, unique=True , verbose_name="ISBN Number")
+    isbn = isbn_field.ISBNField(blank=True, unique=True , verbose_name="ISBN Number", null=True)
     date = models.DateField(verbose_name="Published Date")
-    citations = models.CharField(max_length=400, verbose_name="Citations")
+    citations = models.CharField(blank=True, max_length=400, verbose_name="Citations", null=True)
     paper_journal = models.CharField(max_length=2, choices=TYPES_PUBLICATION, verbose_name="Type Of Publication")
     author = models.ManyToManyField('Person', verbose_name="Authors")
     paper_pdf = models.FileField(upload_to=get_file_path,
@@ -49,7 +49,13 @@ class Person(models.Model):
     name = models.CharField(max_length=60)
     
     email = models.EmailField()
-    phno = PhoneNumberField(blank=True)
+    phno = PhoneNumberField(blank=True, default="+91")
+
+    linked_user = models.ForeignKey('authtools.User', on_delete=models.CASCADE, blank=True , verbose_name="Linked User", null=True)
 
     def __str__(self):
         return self.name
+
+    class Meta:
+        verbose_name = 'Author'
+        verbose_name_plural = 'Author Profile'
