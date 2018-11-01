@@ -14,7 +14,6 @@ from django.utils.crypto import get_random_string
 from django.utils.html import format_html
 from jet.filters import DateRangeFilter
 
-from admin_view_permission.admin import AdminViewPermissionModelAdmin
 from minerva_core.models import Person, Publication
 
 
