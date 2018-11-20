@@ -18,9 +18,6 @@ from minerva_core.models import Person, Publication
 
 
 class UserCreationForm(UserCreationForm):
-    """
-    A UserCreationForm with optional password inputs.
-    """
 
     def __init__(self, *args, **kwargs):
         super(UserCreationForm, self).__init__(*args, **kwargs)
@@ -117,7 +114,7 @@ class PublicationAdmin(admin.ModelAdmin):
 
     def get_queryset(self, request):
         qs = super(PublicationAdmin, self).get_queryset(request)
-        if not request.user.is_superuser:
+        if not (request.user.is_superuser or request.user.email=='nmit_student@nmit.ac.in'):
             qs = qs.filter(author__linked_user=request.user)
         return qs
 

@@ -1,6 +1,7 @@
 Babel==2.6.0
 Django==2.1.2
 django-admin-rangefilter==0.3.8
+django-authtools==1.6.0
 django-jet==1.0.8
 django-localflavor==2.1
 django-phonenumber-field==2.0.1

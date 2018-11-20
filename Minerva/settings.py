@@ -26,7 +26,7 @@ SECRET_KEY = 'zn%bd51)etxs*hq)0uds1^3!f3+ib3u$bl&p%x8(r=g*n31_z8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['amithkk.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 # Application definition
 
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rangefilter',
     'django.contrib.staticfiles',
     'minerva_core.apps.MinervaCoreConfig',
+    'minerva_event.apps.MinervaEventConfig',
     'isbn_field',
     'phonenumber_field',
 ]
@@ -139,4 +140,4 @@ MEDIA_ROOT = 'media/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR,
                                  'static/'),
                     )
-
+LOGOUT_REDIRECT_URL = '/login'
