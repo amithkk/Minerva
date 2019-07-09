@@ -1,7 +1,8 @@
 
-<p align="center"><img src="https://github.com/amithkk/Minerva/raw/master/logo_transparent.png" alt="Minerva Logo" width="250"/>
+<p align="center"><img src="https://github.com/amithkk/Minerva/raw/master/logo_transparent.png" alt="Minerva Logo" width="250"/></p>
+<p align="center"><a href="https://www.python.org/"><img src="http://ForTheBadge.com/images/badges/made-with-python.svg" alt="Python Logo"/></a></p>
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)</p>
+
 
 ---
 
