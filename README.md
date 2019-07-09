@@ -20,7 +20,7 @@ Django based research paper and literature CMS for colleges written with an Angu
  - Setup database configuration in `settings.py`, uses SQLite by default. Certain queries might not work without a Postgres db attached
  - Migrate DB with `manage.py syncdb`
  - Launch development server using `manage.py runserver`
- - \[OPTIONAL\] Setup nginx with `uwsgi` for running this in productions. Detailed instructions are given on [USWGI's Page](https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html)
+ - \[OPTIONAL\] Setup nginx with `uwsgi` for running this in production. Detailed instructions are given on [USWGI's Page](https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html)
 
 
 ## Screenshots
