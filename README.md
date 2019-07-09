@@ -6,7 +6,7 @@
 
 ---
 
-Django based research paper and literature management system CMS for colleges written with an Angular Student Frontend and support for email notifications. This repository contains the open source administration backend and student research paper view
+Django based research paper and literature CMS for colleges written with an Angular Student Frontend and support for email notifications. This repository contains the open source administration backend and student research paper view
 
 ## Features
  - Ability to sort, filter, index, bulk import and export research papers/publications with Author Tracking
