@@ -7,6 +7,10 @@ For more information on this file, see
 https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/
 """
 
+#  Copyright (c) 2018 - Amith K K
+#  Released under the GNU GPLv3 License
+#
+
 import os
 
 from django.core.wsgi import get_wsgi_application

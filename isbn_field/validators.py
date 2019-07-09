@@ -1,3 +1,7 @@
+#  Copyright (c) 2018 - Amith K K
+#  Released under the GNU GPLv3 License
+#
+
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
 from six import string_types

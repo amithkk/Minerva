@@ -1,3 +1,7 @@
+#  Copyright (c) 2018 - Amith K K
+#  Released under the GNU GPLv3 License
+#
+
 from authtools.models import User
 from django.contrib import auth
 from django.shortcuts import render, redirect

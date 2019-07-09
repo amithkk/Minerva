@@ -10,6 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
+#  Copyright (c) 2018 - Amith K K
+#  Released under the GNU GPLv3 License
+#
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
