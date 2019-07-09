@@ -28,3 +28,6 @@ Django based research paper and literature management system CMS for colleges wr
   
  ## One Click Deploy
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) (soon)
+
+---
+Made with ❤ and ☕ by [Amith K K](https://amithkk.github.io)
