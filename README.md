@@ -14,6 +14,8 @@ Django based research paper and literature CMS for colleges written with an Angu
  - Export statistics for papers 
  - Email notifications and automatic author account creation on making a publication.
  - APIs for plugins for potential integration into aggregators such as IEEE
+ - Record attendances for conferences and other events
+ - Create attendance reports
  
 ## Installation
  - Setup virtualenv with your enviroment manager of choice
