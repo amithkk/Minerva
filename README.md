@@ -1,4 +1,3 @@
-
 <p align="center"><img src="https://github.com/amithkk/Minerva/raw/master/logo_transparent.png" alt="Minerva Logo" width="250"/></p>
 <p align="center"><a href="https://www.python.org/"><img src="http://ForTheBadge.com/images/badges/made-with-python.svg" alt="Python Logo"/></a></p>
 
@@ -29,6 +28,7 @@ Django based research paper and literature CMS for colleges written with an Angu
 
 ![Login](https://github.com/amithkk/Minerva/raw/master/docs/login.png)
 ![Add Paper](https://github.com/amithkk/Minerva/raw/master/docs/addpaper.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Famithkk%2FMinerva.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Famithkk%2FMinerva?ref=badge_shield)
 
 
  
@@ -41,3 +41,7 @@ Django based research paper and literature CMS for colleges written with an Angu
 
 ---
 Made with ❤ and ☕ by [Amith K K](https://amithkk.github.io)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Famithkk%2FMinerva.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Famithkk%2FMinerva?ref=badge_large)
