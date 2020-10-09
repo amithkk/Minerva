@@ -35,9 +35,6 @@ Django based research paper and literature CMS for colleges written with an Angu
 ## See it in action!
   [Demo Server](http://demo.amithkk.com/minerva) ![](https://img.shields.io/badge/webapp-down-red.svg)
   
-  
-## One Click Deploy
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) (soon)
 
 ---
 Made with ❤ and ☕ by [Amith K K](https://amithkk.github.io)
