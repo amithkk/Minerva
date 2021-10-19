@@ -30,11 +30,5 @@ Django based research paper and literature CMS for colleges written with an Angu
 ![Login](https://github.com/amithkk/Minerva/raw/master/docs/login.png)
 ![Add Paper](https://github.com/amithkk/Minerva/raw/master/docs/addpaper.png)
 
-
- 
-## See it in action!
-  [Demo Server](http://demo.amithkk.com/minerva) ![](https://img.shields.io/badge/webapp-down-red.svg)
-  
-
 ---
 Made with ❤ and ☕ by [Amith K K](https://amithkk.github.io)
